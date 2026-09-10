@@ -5,7 +5,7 @@
 - **CCID:** `fangzeng`
 
 ## References and Resources
-N/A
+https://developer.android.com/develop/ui/compose/modifiers
 
 ## Verbal Collaboration
 N/A

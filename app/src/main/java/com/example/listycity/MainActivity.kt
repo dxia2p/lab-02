@@ -16,6 +16,8 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -27,6 +29,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.listycity.ui.theme.ListyCityTheme
@@ -103,10 +106,13 @@ class MainActivity : ComponentActivity() {
                 fontSize = 28.sp,
                 modifier = Modifier.padding(vertical = 14.dp).weight(1.0f)
             )
-            Button(
+            IconButton(
                 onClick = {onDeleteCity(index)}
             ) {
-                Text("Remove")
+                Icon(
+                    painter = painterResource(R.drawable.baseline_remove_circle_24),
+                    contentDescription = "Remove button"
+                )
             }
         }
     }
