@@ -1,1 +1,10 @@
-# lab-02
+# CMPUT 301: Lab 1 Participation Exercise
+
+## Student Details
+- **Full Name:** `David Xia`
+- **CCID:** `fangzeng`
+
+## References and Resources
+N/A
+
+## Verbal Collaboration
